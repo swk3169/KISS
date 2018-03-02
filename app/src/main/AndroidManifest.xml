@@ -62,7 +62,7 @@
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:label="onetouch-launcher"
         android:theme="@style/AppThemeLight"
         tools:ignore="GoogleAppIndexingWarning">
 
@@ -81,7 +81,7 @@
             android:name=".MainActivity"
             android:clearTaskOnLaunch="true"
             android:excludeFromRecents="true"
-            android:label="@string/app_name"
+            android:label="onetouch-launcher"
             android:launchMode="singleTask"
             android:screenOrientation="user"
             android:stateNotNeeded="true"
@@ -114,7 +114,7 @@
         </activity>
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/activity_setting"
+            android:label="onetouch-launcher setting"
             android:theme="@style/SettingTheme" />
 
         <!-- On new app installed or sdcard mount / unmount refresh the list -->
